@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-3">In Conjunction With</h4>
             <p className="text-gray-300 text-sm">
-              ACNS 2026<br />
+              <a href="https://acns2026.github.io/index.html" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors underline">ACNS 2026</a><br />
               24th International Conference on Applied Cryptography and Network Security
             </p>
           </div>
