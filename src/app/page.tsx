@@ -3,7 +3,7 @@ export default function Home() {
     <div className="bg-gradient-to-b from-primary-50 to-white">
       {/* Hero Section */}
       <section 
-        className="relative text-center py-24 text-white"
+        className="relative text-center py-48 text-white min-h-[600px] flex items-center justify-center"
         style={{
           backgroundImage: "url('/Picture1.jpg')",
           backgroundSize: 'cover',
@@ -12,16 +12,16 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="relative z-10 container mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-4 drop-shadow-lg">
+          <h1 className="text-5xl font-bold mb-8 drop-shadow-lg">
             CIMSS 2026
           </h1>
-          <h2 className="text-3xl font-semibold mb-6 drop-shadow-md">
+          <h2 className="text-3xl font-semibold mb-10 drop-shadow-md">
             6th International Workshop on Critical Infrastructure and Maritime Systems Security
           </h2>
-          <p className="text-xl mb-4 drop-shadow-md">
+          <p className="text-xl mb-6 drop-shadow-md">
             In Conjunction with <a href="https://acns2026.github.io/index.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary-200 transition-colors">ACNS 2026</a>
           </p>
-          <p className="text-lg mb-8 drop-shadow-md">
+          <p className="text-lg mb-12 drop-shadow-md">
             June 22-25, 2026
           </p>
           
