@@ -12,6 +12,7 @@ export default function Navigation() {
     { name: 'Submissions', href: '/submissions' },
     { name: 'Important Dates', href: '/important-dates' },
     { name: 'Organization', href: '/organization' },
+    { name: 'Venue', href: '/venue' },
     { name: 'Program', href: '/program' },
   ];
 

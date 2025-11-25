@@ -2,24 +2,34 @@ export default function Home() {
   return (
     <div className="bg-gradient-to-b from-primary-50 to-white">
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-5xl font-bold text-primary-900 mb-4">
-          CIMSS 2026
-        </h1>
-        <h2 className="text-3xl font-semibold text-primary-700 mb-6">
-          6th International Workshop on Critical Infrastructure and Maritime Systems Security
-        </h2>
-        <p className="text-xl text-gray-700 mb-4">
-          In Conjunction with ACNS 2026
-        </p>
-        <p className="text-lg text-gray-600 mb-8">
-          June 22-25, 2026
-        </p>
-        
-        {/* Important Dates Badge */}
-        <div className="inline-block bg-primary-600 text-white px-8 py-4 rounded-lg shadow-lg">
-          <p className="font-semibold text-lg">Workshop Paper Submission (Cycle 1)</p>
-          <p className="text-2xl font-bold">January 24, 2026</p>
+      <section 
+        className="relative text-center py-24 text-white"
+        style={{
+          backgroundImage: "url('/Picture1.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="relative z-10 container mx-auto px-4">
+          <h1 className="text-5xl font-bold mb-4 drop-shadow-lg">
+            CIMSS 2026
+          </h1>
+          <h2 className="text-3xl font-semibold mb-6 drop-shadow-md">
+            6th International Workshop on Critical Infrastructure and Maritime Systems Security
+          </h2>
+          <p className="text-xl mb-4 drop-shadow-md">
+            In Conjunction with ACNS 2026
+          </p>
+          <p className="text-lg mb-8 drop-shadow-md">
+            June 22-25, 2026
+          </p>
+          
+          {/* Important Dates Badge */}
+          <div className="inline-block bg-primary-600 text-white px-8 py-4 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm">
+            <p className="font-semibold text-lg">Workshop Paper Submission (Cycle 1)</p>
+            <p className="text-2xl font-bold">January 24, 2026</p>
+          </div>
         </div>
       </section>
 

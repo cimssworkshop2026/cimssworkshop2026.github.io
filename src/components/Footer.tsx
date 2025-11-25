@@ -18,9 +18,21 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-bold text-lg mb-3">Contact</h4>
-            <p className="text-gray-300 text-sm">
-              For inquiries, please contact the program chairs.
+            <p className="text-gray-300 text-sm mb-2">
+              For inquiries, please contact:
             </p>
+            <ul className="text-gray-300 text-sm space-y-1">
+              <li>
+                <a href="mailto:awais_yousaf@sutd.edu.sg" className="hover:text-white transition-colors">
+                  awais_yousaf@sutd.edu.sg
+                </a>
+              </li>
+              <li>
+                <a href="mailto:victor.bolbot@aalto.fi" className="hover:text-white transition-colors">
+                  victor.bolbot@aalto.fi
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">

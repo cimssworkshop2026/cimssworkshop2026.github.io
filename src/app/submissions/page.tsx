@@ -11,7 +11,7 @@ export default function Submissions() {
             Submission System
           </p>
           <p className="text-gray-700">
-            Detailed submission instructions and the link to the submission system will be announced soon.
+            Submission Link: <a href="https://easychair.org/my2/conference?conf=cimss2026" className="text-primary-600 hover:underline break-all">https://easychair.org/my2/conference?conf=cimss2026</a>
           </p>
         </div>
 
