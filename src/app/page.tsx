@@ -7,7 +7,7 @@ export default function Home() {
         style={{
           backgroundImage: "url('/Picture1.jpg')",
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'bottom center',
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
