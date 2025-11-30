@@ -14,7 +14,7 @@ export default function Home() {
         <div className="relative z-10 container mx-auto px-4">
           {/* ACNS Logo */}
           <div className="flex justify-center mb-8">
-             <img src="/acns-logo_L.jpg" alt="ACNS 2026 Logo" className="h-32 w-auto rounded-full border-4 border-white/20 shadow-xl backdrop-blur-sm" />
+             <img src="/acns-logo_L.jpg" alt="ACNS 2026 Logo" className="h-32 w-auto rounded-xl border-4 border-white/20 shadow-xl backdrop-blur-sm" />
           </div>
 
           <h1 className="text-5xl font-bold mb-8 drop-shadow-lg">
@@ -30,15 +30,15 @@ export default function Home() {
             June 22-25, 2026
           </p>
           
-          <div className="flex flex-col lg:flex-row gap-8 justify-center items-center">
+          <div className="flex flex-col lg:flex-row gap-8 justify-center items-stretch">
             {/* Important Dates Badge */}
-            <div className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform">
+            <div className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform flex flex-col justify-center">
               <p className="font-semibold text-lg mb-2">Workshop Paper Submission (Cycle 1)</p>
               <p className="text-3xl font-bold">January 24, 2026</p>
             </div>
 
             {/* Award Badge */}
-            <div className="bg-white text-primary-900 px-8 py-6 rounded-lg shadow-lg bg-opacity-95 backdrop-blur-sm w-full max-w-md border-2 border-yellow-400 relative overflow-hidden transform hover:scale-105 transition-transform">
+            <div className="bg-white text-primary-900 px-8 py-6 rounded-lg shadow-lg bg-opacity-95 backdrop-blur-sm w-full max-w-md border-2 border-yellow-400 relative overflow-hidden transform hover:scale-105 transition-transform flex flex-col justify-center">
               <div className="absolute top-0 right-0 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 shadow-sm">AWARD</div>
               <h3 className="text-xl font-bold mb-2 text-primary-800">Best Workshop Paper Award</h3>
               <p className="text-2xl font-bold text-yellow-600 mb-3">EUR 500 Prize</p>
