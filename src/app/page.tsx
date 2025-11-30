@@ -12,6 +12,11 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         <div className="relative z-10 container mx-auto px-4">
+          {/* ACNS Logo */}
+          <div className="flex justify-center mb-8">
+             <img src="/acns-logo_L.jpg" alt="ACNS 2026 Logo" className="h-32 w-auto rounded-full border-4 border-white/20 shadow-xl backdrop-blur-sm" />
+          </div>
+
           <h1 className="text-5xl font-bold mb-8 drop-shadow-lg">
             CIMSS 2026
           </h1>
@@ -25,10 +30,23 @@ export default function Home() {
             June 22-25, 2026
           </p>
           
-          {/* Important Dates Badge */}
-          <div className="inline-block bg-primary-600 text-white px-8 py-4 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm">
-            <p className="font-semibold text-lg">Workshop Paper Submission (Cycle 1)</p>
-            <p className="text-2xl font-bold">January 24, 2026</p>
+          <div className="flex flex-col lg:flex-row gap-8 justify-center items-center">
+            {/* Important Dates Badge */}
+            <div className="bg-primary-600 text-white px-8 py-6 rounded-lg shadow-lg bg-opacity-90 backdrop-blur-sm w-full max-w-md transform hover:scale-105 transition-transform">
+              <p className="font-semibold text-lg mb-2">Workshop Paper Submission (Cycle 1)</p>
+              <p className="text-3xl font-bold">January 24, 2026</p>
+            </div>
+
+            {/* Award Badge */}
+            <div className="bg-white text-primary-900 px-8 py-6 rounded-lg shadow-lg bg-opacity-95 backdrop-blur-sm w-full max-w-md border-2 border-yellow-400 relative overflow-hidden transform hover:scale-105 transition-transform">
+              <div className="absolute top-0 right-0 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 shadow-sm">AWARD</div>
+              <h3 className="text-xl font-bold mb-2 text-primary-800">Best Workshop Paper Award</h3>
+              <p className="text-2xl font-bold text-yellow-600 mb-3">EUR 500 Prize</p>
+              <div className="flex items-center justify-center gap-3 text-sm text-gray-600 font-medium">
+                <span>Sponsored by</span>
+                <img src="/Springer.jpg" alt="Springer" className="h-8 w-auto" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -65,6 +83,27 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* News Section */}
+      <section className="container mx-auto px-4 py-12 max-w-5xl">
+        <div className="bg-white rounded-lg shadow-md p-8">
+          <h3 className="text-3xl font-bold text-primary-900 mb-6">News</h3>
+          <ul className="space-y-4">
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-primary-700 min-w-[150px]">Nov 26, 2025</span>
+              <span className="text-gray-700">Submission Cycle 1 opened</span>
+            </li>
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-primary-700 min-w-[150px]">Nov 26, 2025</span>
+              <span className="text-gray-700">CFP announced</span>
+            </li>
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-primary-700 min-w-[150px]">Nov 25, 2025</span>
+              <span className="text-gray-700">Website launched</span>
+            </li>
+          </ul>
         </div>
       </section>
 

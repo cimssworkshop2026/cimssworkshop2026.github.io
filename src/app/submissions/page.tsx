@@ -23,7 +23,7 @@ export default function Submissions() {
             </div>
             <div>
               <h4 className="font-semibold mb-1">Prepare Your Paper</h4>
-              <p>Format according to LNCS guidelines, max 20 pages including references</p>
+              <p>Format according to <a href="http://www.springeronline.com/lncs" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">LNCS guidelines</a>, max 20 pages including references</p>
             </div>
           </div>
           
@@ -43,7 +43,7 @@ export default function Submissions() {
             </div>
             <div>
               <h4 className="font-semibold mb-1">Submit Online</h4>
-              <p>Use the submission system (link to be announced)</p>
+              <p>Use the <a href="https://easychair.org/my2/conference?conf=cimss2026" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">submission system</a></p>
             </div>
           </div>
           
